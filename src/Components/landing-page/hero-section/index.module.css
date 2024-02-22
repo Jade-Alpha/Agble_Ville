@@ -1,0 +1,23 @@
+.Hero{
+    background-color: white;
+     /* linear-gradient(90deg, rgba(121,9,113,0.6054796918767507) 39%, rgba(55,0,255,0.6138830532212884) 90%), url(../../../../public/Assect/fukayamamo-Cp1LK6zNEZ8-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; */
+    display: flex;
+    color: #000;
+    font-size: 24px;
+    margin: auto;
+    gap: 200px;
+}
+
+.HeroA{
+  display: inline-block;
+  margin: 37px 0 auto;
+  padding-right: 30px;
+  /* flex-direction: column; */
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+
+}
