@@ -14,43 +14,39 @@ function NewArrival() {
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
             <div className={styles.productCard}>
-                <img src="assets/more (1).jpg" alt="" />
+                <img src="potatoes.avif" alt="" />
                 <div className={styles.productName}>Potatoes</div>
                 <div className={styles.productPrice}>$6</div>
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
             <div className={styles.productCard}>
-                <img src="assets/car4 (1).jpg" alt="" />
+                <img src="mushrooms.avif" alt="" />
                 <div className={styles.productName}>Mushrooms</div>
                 <div className={styles.productPrice}>$15</div>
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
             <div className={styles.productCard}>
-                <img src="assets/car4 (2).jpg" alt="" />
+                <img src="tomatoes.avif" alt="" />
                 <div className={styles.productName}>Tomatoes</div>
                 <div className={styles.productPrice}>$1</div>
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
+        
             <div className={styles.productCard}>
-                <img src="assets/car4 (3).jpg" alt="" />
+                <img src="milk.avif" alt="" />
                 <div className={styles.productName}>Milk</div>
                 <div className={styles.productPrice}>$20</div>
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
+           
             <div className={styles.productCard}>
-                <img src="assets/car4 (4).jpg" alt="" />
-                <div className={styles.productName}>Mixed veggies</div>
-                <div className={styles.productPrice}>$18</div>
-                <button className={styles.viewMoreButton}>View More</button>
-            </div>
-            <div className={styles.productCard}>
-                <img src="assets/Car3.jpg" alt="" />
-                <div className={styles.productName}>Milk</div>
+                <img src="apples.avif" alt="" />
+                <div className={styles.productName}>Apples</div>
                 <div className={styles.productPrice}>$120,000</div>
                 <button className={styles.viewMoreButton}>View More</button>
             </div>
             <div className={styles.productCard}>
-                <img src="assets/car4 (5).jpg" alt="" />
+                <img src="cheese.avif" alt="" />
                 <div className={styles.productName}>Cheese</div>
                 <div className={styles.productPrice}>$90</div>
                 <button className={styles.viewMoreButton}>View More</button>
