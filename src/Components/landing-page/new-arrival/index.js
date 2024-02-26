@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
+import Products from "../../../pages/produce";
 
 function NewArrival() {
     return (
@@ -64,6 +65,7 @@ function NewArrival() {
                     <div className={styles.productName}>Snails</div>
                     <div className={styles.productPrice}><span>&#8373;</span>50</div>
                     <button className={styles.viewMoreButton}>Add to cart</button>
+                    <Products/>
                 </div>
             </div>
         </section>
