@@ -16,6 +16,8 @@
   background-color: #666;
   color: aliceblue;
    padding: 80px 120px; 
+}
+ .App {
   text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -139,4 +141,3 @@
   background: #9acea3;
   text-decoration: none;
 }
-
