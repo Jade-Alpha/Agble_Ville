@@ -1,13 +1,12 @@
-import Team from "./Components/landing-page/footer-section";
+import SignUp_Page from "./Components/Sign_up/signup";
+import Footer from "./Components/landing-page/footer-section";
+import Login_Page from "./Components/Login/login";
 
-
-
-function App(){
+export default function App() {
     return(
         <>
-        <Team/>
+        { <SignUp_Page/> }
+        {/* <Login_Page/> */}
         </>
     )
 }
-
-export default App;
