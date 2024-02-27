@@ -9,11 +9,6 @@ import NewArrival from "./Components/landing-page/new-arrival";
 import Hero from "../src/Components/landing-page/hero-section"
 
 
-
-
-
-
-
 function App() {
     return (
         <>
