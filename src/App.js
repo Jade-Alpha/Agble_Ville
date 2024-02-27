@@ -1,14 +1,21 @@
 import React from "react";
-import NewArrival from "./Components/landing-page/new-arrival";
-import Hero from "../src/Components/landing-page/hero-section"
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import BuyerCatalogue from "./Components/BuyerCatalogue/BuyerCatalogue";
+import Cartpage from "./Components/CartBasket/Cartpage";
+import CheckoutPage from "./Components/CheckoutBasket/CheckoutPage";
 
-export default App;
 
 function App() {
     return (
-        <>
-        <Hero/>
-       <NewArrival />
-        </>
-    )
+        <Router>
+            <Routes>
+            <Route path="/" element={<BuyerCatalogue />} /> 
+                <Route path="/products" element={<BuyerCatalogue />} />
+                <Route path="/cart" element={<Cartpage />} /> 
+                <Route path="/checkout" element={<CheckoutPage />} /> 
+            </Routes>
+        </Router>
+    );
 }
+
+export default App;
