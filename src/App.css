@@ -1,38 +1,140 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.img {
+  width: 700px;
+  height: auto;
+  
+}
+
+
+.services {
+  background-color: #666;
+  color: aliceblue;
+   padding: 80px 120px; 
+}
  .App {
   text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 30vh;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.698) 21%, rgba(0, 0, 0, 0.603) 100%),url(../../Agble_Ville/src/Components/landing-page/about-section/asserts/image3.jpg);
+    background-position: top;
+    text-align: center;
+    font-size: 20px;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.new-item-text{
+ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    padding: 0 100px ;
+      height: auto;
+    }
+  ;
+  
+
+
+ 
+
+.texts h5 {
+  font-family: cursive;
+  color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service-card
+{
+  padding:20px;
+  width: 250px;
+ 
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+
+.about-text {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 100px 0; */
+  padding-bottom: 30px;
+
+
+}
+.images {
+  height: 50px;
+
+}
+.txt {
+  font-size: xx-large;
+  opacity: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.texts{
+  font-size: 20px;
+  padding: none;
+  margin: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pg
+{
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.Ab{
+  padding-top: 20px;
+}
+.img1
+{
+  height: 20px;
+
+}
+.texts h5{
+  color: green;
+  font-family: cursive ;
+  font-size: larger;
+}
+
+.texts h3 {
+  font-weight: 500;
+  font-size:50px;
+}
+
+.btn {
+  border-radius: 50%;
+  background: #dfca57b6;
+  padding: 11px 8px 10px 10px;
+  text-decoration: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+ 
+
+ 
+}
+.botton{
+  padding-top: 25px;
+}
+
+.btn:hover {
+  background: #9acea3;
+  text-decoration: none;
 }
