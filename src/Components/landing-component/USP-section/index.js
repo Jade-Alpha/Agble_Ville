@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from "./index.module.css"
-import pic1 from "../about-section/asserts/sunrise.png"
-import pic2 from "../about-section/asserts/leaves.png"
-import pic3 from "../about-section/asserts/wheat.png"
-import pic4 from "../about-section/asserts/house.png"
+import pic1 from "../../../Assect/sunrise.png"
+import pic2 from "../../../Assect/leaves.png"
+import pic3 from "../../../Assect/wheat.png"
+import pic4 from "../../../Assect/house.png"
 function  SectionServiceItem(){
     return (
       <section >

@@ -24,14 +24,35 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     height: 30vh;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.698) 21%, rgba(0, 0, 0, 0.603) 100%),url(../../Agble_Ville/src/Components/landing-page/about-section/asserts/image3.jpg);
-    background-position: top;
+    /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.698) 21%, rgba(0, 0, 0, 0.603) 100%),url(../../Agble_Ville/src/Components/landing-page/about-section/asserts/image3.jpg);
+    background-position: top; */
     text-align: center;
     font-size: 20px;
 
 
 
 }
+
+
+
+.services {
+  
+    height: 30vh;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.698) 21%, rgba(0, 0, 0, 0.603) 100%),url(../src/Assect/image3.jpg);
+    background-position: top;
+    text-align: center;
+    font-size: 20px;
+height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+
+
+
 
 
 
@@ -46,6 +67,7 @@
     align-items: center;
     padding: 0 100px ;
       height: auto;
+      padding-bottom: none ;
     }
   ;
   
@@ -85,6 +107,7 @@
 .txt {
   font-size: xx-large;
   opacity: 50%;
+  color: white;
 }
 
 .texts{
@@ -138,3 +161,61 @@
   background: #9acea3;
   text-decoration: none;
 }
+
+.history-item{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+ 
+}
+
+.history
+{
+padding: 120px 30px;
+text-align: center;
+background-image: url(../src/Assect/artem-kniaz-RWeO3t9FxG0-unsplash.jpg);
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+.history-card{
+background-color:linear-gradient(90deg, rgb(255, 255, 255) 21%, rgba(110, 109, 109, 0.603) 100%);
+color : white;
+padding:20px ;
+box-shadow: 5px 5px 10px rgba(179, 176, 176, 0.5);
+border-radius: 3px;
+
+}
+.history h2 {
+margin-bottom: 30px;
+}
+
+.team-card {
+  text-align: center;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+.teamsession h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.teamsession{
+  background: linear-gradient(to bottom,white,pink);
+  padding: 50px;
+
+}
+
+.team-card img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10%; 
+  padding: 18px;
+  background-color: white; }

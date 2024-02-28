@@ -1,9 +1,9 @@
 
 import React from 'react';
-import styles from "./index.module.css"
+// import styles from "./index.module.css"
 import SectionServiceItem from '../USP-section';
-import pic from "../about-section/asserts/Image5.png"
-import pic5 from "../about-section/asserts/next.png"
+import pic from "../../../Assect/Image5.png"
+import pic5 from "../../../Assect/next.png"
 
 function AboutSection (){
   return (
@@ -15,7 +15,7 @@ function AboutSection (){
 
                    <img className="img" src={pic}/>
                </div>
-                
+               {/* #E9DA5D */}
             
                   <div  className="texts">
                   <h5>A few words about our farm</h5>
