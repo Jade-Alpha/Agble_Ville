@@ -9,7 +9,7 @@ function CheckoutPage({ cartItems, onRemoveItem, onUpdateQuantity }) {
         <div className={styles.checkoutPage}>
             <h2>Checkout</h2>
             <div className={styles.cartContainer}>
-                <Cart items={cartItems} onRemoveItem={onRemoveItem} onUpdateQuantity={onUpdateQuantity} />
+                <cart items={cartItems} onRemoveItem={onRemoveItem} onUpdateQuantity={onUpdateQuantity} />
             </div>
             <div className={styles.formContainer}>
                 <CheckoutForm />
