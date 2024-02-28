@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
 // App.js
 import './App.css'
 // import React from 'react';
@@ -23,18 +26,27 @@ export default App;
 
 function App() {
     return (
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
 import SignUp_Page from "./Components/Sign_up/signup";
 import Footer from "./Components/landing-page/footer-section";
 import Login_Page from "./Components/Login/login";
 
 export default function App() {
     return(
+<<<<<<< HEAD
 >>>>>>> 5a4e158548b89df73e0de92f6ad3704aad1dd533
         <>
         { <SignUp_Page/> }
         <HomePage/>
 <<<<<<< HEAD
+=======
+        <>
+        { <SignUp_Page/> }
+        <HomePage/>
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
         
          <AboutSection />
        <NewArrival /> 
@@ -44,7 +56,10 @@ export default function App() {
      </>
     )
 }
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
         {/* { <Login_Page/> } */}
         </>
     )
@@ -54,4 +69,7 @@ import React from "react";
 
 
 
+<<<<<<< HEAD
 >>>>>>> 5a4e158548b89df73e0de92f6ad3704aad1dd533
+=======
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
