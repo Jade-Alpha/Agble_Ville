@@ -37,9 +37,6 @@ export default function HomePage() {
              </section>
        </div>
         </div>
-<<<<<<< HEAD
-       
-=======
             <NavBar />
             <div>
 
@@ -67,9 +64,6 @@ export default function HomePage() {
             <NewArrival/>
             < Footer/>
             <AboutHero/>
-            
-=======
->>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
-        </>
+                    </>
     )
 }

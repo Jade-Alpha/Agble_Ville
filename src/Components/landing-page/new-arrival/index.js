@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
-=======
-<<<<<<< HEAD
-=======
 import React from "react";
->>>>>>> afdfb90f3a20f8262dd4deaa4fd092d6518430c5
 import styles from "./index.module.css";
 
 const allProducts = [
@@ -65,4 +60,3 @@ function NewArrival() {
 }
 
 export default NewArrival;
->>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8
