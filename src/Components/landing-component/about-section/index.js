@@ -1,6 +1,6 @@
 
 import React from 'react';
-import styles from "./index.module.css"
+// import styles from "./index.module.css"
 import SectionServiceItem from '../USP-section';
 import pic from "../about-section/asserts/Image5.png"
 import pic5 from "../about-section/asserts/next.png"
