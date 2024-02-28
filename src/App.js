@@ -6,7 +6,7 @@ export default function App() {
     return(
         <>
         { <SignUp_Page/> }
-        {/* <Login_Page/> */}
+        {/* { <Login_Page/> } */}
         </>
     )
 }

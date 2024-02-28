@@ -5,7 +5,9 @@ import React from "react";
 export default function Login_Page(){
     return(
      <>
-     <h1 className="signup-text"> Login Page</h1>
+     <div className="container-log">
+    <form className="form-log">
+     <h1 className="signup-text-log"> Login Page</h1>
     <div className="email">
     
      <input type="text" placeholder="Email Address"/>
@@ -18,12 +20,17 @@ export default function Login_Page(){
     <div className="signup-button">
         <button type="submit" > Login </button>
     </div>
-    <div className="AHA">
+    <div className="AHA-log">
         <p >Don't have an account?
         <a href="https//:">SignUp</a>
         </p>
+        <div>
+            <a href="">forgotten your password?</a>
+        </div>
         
         
+    </div>
+    </form>
     </div>
      </>
     );
