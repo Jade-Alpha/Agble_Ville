@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./ItemList.module.css";
 
 function ItemList({ items, onDelete }) {
+    if (!items || items.length === 0) {
+        return <div className={styles.itemList}>No items available</div>;
+    }
+
     return (
         <div className={styles.itemList}>
             <h2>Item List</h2>
