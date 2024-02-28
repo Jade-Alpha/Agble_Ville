@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // App.js
 import './App.css'
 // import React from 'react';
@@ -22,8 +23,18 @@ export default App;
 
 function App() {
     return (
+=======
+import SignUp_Page from "./Components/Sign_up/signup";
+import Footer from "./Components/landing-page/footer-section";
+import Login_Page from "./Components/Login/login";
+
+export default function App() {
+    return(
+>>>>>>> 5a4e158548b89df73e0de92f6ad3704aad1dd533
         <>
+        { <SignUp_Page/> }
         <HomePage/>
+<<<<<<< HEAD
         
          <AboutSection />
        <NewArrival /> 
@@ -33,3 +44,14 @@ function App() {
      </>
     )
 }
+=======
+        {/* { <Login_Page/> } */}
+        </>
+    )
+}
+import HomePage from "./pages/homePage"
+import React from "react";
+
+
+
+>>>>>>> 5a4e158548b89df73e0de92f6ad3704aad1dd533
