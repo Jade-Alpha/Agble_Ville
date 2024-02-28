@@ -1,11 +1,13 @@
 // App.js
 import './App.css'
 // import React from 'react';
-import AboutSection from "../src/Components/landing-page/about-section"
-import SectionServiceItem from "../src/Components/landing-page/USP-section"
+import AboutSection from "../src/Components/landing-component/about-section"
+import SectionServiceItem from "../src/Components/landing-component/USP-section"
 import HomePage from "./pages/homePage"
 import React from "react";
-import NewArrival from "./Components/landing-page/new-arrival";
+import NewArrival from "../src/Components/landing-component/new-arrival";
+import AboutHistory from './Components/aboutHistoryComponent/aboutHistory';
+
 // import Hero from "../src/Components/landing-page/hero-section"
 
 
@@ -13,10 +15,12 @@ function App() {
     return (
         <>
         <HomePage/>
-        {/* <Hero/> */}
-        <AboutSection />
-       <NewArrival />
-        </>
+        
+         <AboutSection />
+       <NewArrival /> 
+       <AboutHistory/>
+       
+       </>
     )
 }
 

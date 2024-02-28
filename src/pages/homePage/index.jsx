@@ -1,9 +1,10 @@
 import produce from '../homePage'
 import Produce_page from '../producePage'
 // import NavBar from '../../Components/landing-page/navBarComponent'
-import NavBar from '../../Components/landing-page/navBarComponent/navBar'
+import NavBar from '../../Components/landing-component/navBarComponent/navBar'
 import image1 from '../../Assect/bg1.jpg'
 import image3 from '../../Assect/bg3.jpg'
+
 
 
 export default function HomePage() {
@@ -33,6 +34,7 @@ export default function HomePage() {
              </section>
        </div>
         </div>
+       
         </>
     )
 }
