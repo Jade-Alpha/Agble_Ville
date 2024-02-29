@@ -26,9 +26,10 @@ function Footer(){
                 </div>
             </div>
         </section>
-        <di>
+        <di className="footer-down">
             <p>&copy;2024 Farm. All rights reserved</p>
         </di>
+        
         </>
     )
 
