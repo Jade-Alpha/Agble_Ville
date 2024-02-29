@@ -17,7 +17,7 @@ export default function NavBar() {
  
  <>
  <div className="nav-side">
-     <h3>Agble Ville</h3>
+     <img src={logo} className="logo" />
      <nav className="top-nave">
          <a href="" className="home-home">HOME</a>
          <a href=""><Link to="/product">PRODUCTS</Link></a>
