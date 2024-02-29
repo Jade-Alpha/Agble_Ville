@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import React from "react";
 import styles from "./index.module.css";
 
 const allProducts = [
@@ -27,6 +26,11 @@ function NewArrival() {
 
   return (
     <section className={styles.products}>
+
+      <h2>Latest Arrivals</h2>
+      <h1>NEW PRODUCTS</h1>
+
+
       <div className={styles.navigation}>
         <button onClick={() => handleCategoryChange("all")}>All</button>
         <button onClick={() => handleCategoryChange("fruits")}>Fruits</button>
@@ -34,9 +38,6 @@ function NewArrival() {
         <button onClick={() => handleCategoryChange("dairy")}>Dairy</button>
         <button onClick={() => handleCategoryChange("others")}>Others</button>
       </div>
-
-      <h2>Latest Arrivals</h2>
-      <h1>NEW PRODUCTS</h1>
 
       <div className={styles.productItems}>
         {allProducts
