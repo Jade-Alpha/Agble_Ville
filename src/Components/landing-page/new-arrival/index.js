@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import React from "react";
 import styles from "./index.module.css";
 
@@ -29,3 +31,4 @@ function NewArrival() {
 }
 
 export default NewArrival;
+>>>>>>> 48d4cb162560461d58c051f8fe9de24eb1163fd8

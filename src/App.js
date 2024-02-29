@@ -1,43 +1,52 @@
-// App.js
-import './App.css'
-// import React from 'react';
-import AboutSection from "../src/Components/landing-component/about-section"
-import SectionServiceItem from "../src/Components/landing-component/USP-section"
-import HomePage from "./pages/homePage"
 import React from "react";
-import NewArrival from "../src/Components/landing-component/new-arrival";
-import AboutHistory from './Components/aboutHistoryComponent/aboutHistory';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { About } from "./pages/About-page/about";
+import { Products } from "./pages/Product-page/product";
+import Footer from "./Components/landing-page/footer-section";
+import NavBar from "./Components/landing-page/navBarComponent/navBar";
 
-// import Hero from "../src/Components/landing-page/hero-section"
+import Hero from "../src/Components/landing-page/hero-section";
+import AboutSection from "../src/Components/landing-component/about-section";
+import NewArrival from "../src/Components/landing-page/new-arrival";
+import BuyerCatalogue from "./Components/BuyerCatalogue/BuyerCatalogue";
+import Cart from "./Components/CartBasket/Cart";
+import CartPage from "./Components/CartBasket/Cartpage";
+import CheckoutForm from "./Components/CheckoutBasket/CheckoutForm";
+import EditItemForm from "./Components/SellerManagement/EditItemForm";
+import ItemList from "./Components/SellerManagement/ItemList";
+import SignUpPage from "./Components/Sign_up/signup";
+import LoginPage from "./pages/login_page/login";
 
-import BuyerCatalogue from "./Components/BuyerCatalogue/BuyerCatalogue"
-import SignUp_Page from "./Components/Sign_up/signup";
-import Footer from "./Components/landing-component/footer-section";
-import Login_Page from "./Components/Login/login";
 
+const router = createBrowserRouter([
+  {path: "/", element: <HomePage/>},
+  {path: "/about", element: <About/>},
+ {path: "/product", element: <Products/>},
+ {path: "/contact", element: <Footer/>}
+]);
 
 
 
 
 
 export default function App() {
-    return(
+    return (
         <>
-        { <SignUp_Page/> }
-        <HomePage/>
-        
-         <AboutSection />
-       <NewArrival /> 
-       <AboutHistory/>
-       <BuyerCatalogue/>
-       <Footer/>
+        {/* <NavBar/> */}
+        {/* <HomePage/> */}
+        <RouterProvider router={router}/>
        
-     </>
-    )
+            {/* <Hero /> */}
+            {/* <AboutSection /> */}
+            {/* <NewArrival /> */}
+            {/* <BuyerCatalogue /> */}
+            {/* <Cart /> */}
+            {/* <CartPage /> */}
+            {/* <CheckoutForm /> */}
+            {/* <EditItemForm /> */}
+            {/* <ItemList /> */}
+            {/* <SignUpPage /> */}
+            {/* <LoginPage /> */}
+        </>
+    );
 }
-        {/* { <Login_Page/> } */}
-        
-
-
-
-
