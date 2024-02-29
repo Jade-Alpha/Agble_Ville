@@ -9,22 +9,16 @@ import NewArrival from "../src/Components/landing-component/new-arrival";
 import AboutHistory from './Components/aboutHistoryComponent/aboutHistory';
 
 // import Hero from "../src/Components/landing-page/hero-section"
-import HomePage from "./pages/homePage"
-import React from "react";
-import NewArrival from "./Components/landing-page/new-arrival";
-import Hero from "../src/Components/landing-page/hero-section"
-import AboutSection from "../src/Components/landing-page/about-section"
+
 import BuyerCatalogue from "./Components/BuyerCatalogue/BuyerCatalogue"
-
-
-
-export default App;
-
-function App() {
-    return (
 import SignUp_Page from "./Components/Sign_up/signup";
-import Footer from "./Components/landing-page/footer-section";
+import Footer from "./Components/landing-component/footer-section";
 import Login_Page from "./Components/Login/login";
+
+
+
+
+
 
 export default function App() {
     return(
@@ -36,16 +30,14 @@ export default function App() {
        <NewArrival /> 
        <AboutHistory/>
        <BuyerCatalogue/>
+       <Footer/>
        
      </>
     )
 }
         {/* { <Login_Page/> } */}
-        </>
-    )
-}
-import HomePage from "./pages/homePage"
-import React from "react";
+        
+
 
 
 
