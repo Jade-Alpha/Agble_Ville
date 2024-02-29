@@ -174,7 +174,7 @@ height: auto;
 
 .history
 {
-padding: 120px 30px;
+padding: 120px ;
 text-align: center;
 background-image: url(../src/Assect/artem-kniaz-RWeO3t9FxG0-unsplash.jpg);
 background-position: center;
@@ -184,12 +184,33 @@ background-size: cover;
 
 }
 
+.history h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+  
+    color: white;
+    padding-top: none;
+    
+}
+
+.history h3 {color: black;
+
+}
+.history p{
+  padding: 10px;
+  font-weight: 300;
+  
+}
+
 .history-card{
-background-color:linear-gradient(90deg, rgb(255, 255, 255) 21%, rgba(110, 109, 109, 0.603) 100%);
-color : white;
-padding:20px ;
-box-shadow: 5px 5px 10px rgba(179, 176, 176, 0.5);
+  background-color:linear-gradient(90deg, rgba(50, 44, 51, 0.698) 21%, rgba(56, 59, 66, 0.603) 100%);
+  color : white;
+  padding:20px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
 border-radius: 3px;
+height: 250px;
+
 
 }
 .history h2 {
@@ -198,24 +219,154 @@ margin-bottom: 30px;
 
 .team-card {
   text-align: center;
-  border-radius: 10%;
-  padding: 30px;
+  border-radius: 10px;
+  /* padding: 30px; */
+  
+  
+
 }
 
 .teamsession h2{
   text-align: center;
   margin-bottom: 30px;
+ 
+  color: black;
+  
 }
 
 .teamsession{
-  background: linear-gradient(to bottom,white,pink);
+ 
   padding: 50px;
-
+  margin-top: 60px;
+  
+  
 }
 
 .team-card img{
   width: 300px;
   height: 300px;
-  border-radius: 10%; 
+   border-radius: 5px;
   padding: 18px;
   background-color: white; }
+
+  .team {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+  
+  
+
+  
+ .social-media img {
+  width: 60px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; 
+  padding: none;
+}
+
+
+
+
+.testimonial
+{
+padding: 120px ;
+text-align: center;
+background-image: url(../src/Assect/herosection3.jpg);
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+.testi h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-size: 50px;
+    color: white;
+    padding-top: none;
+    
+}
+
+.testi-card{
+  background-color:white;
+  color : black;
+  padding:40px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
+border-radius: 10px;
+height: 300px;
+margin: 30px;
+
+}
+.testi h2 {
+margin-bottom: 30px;
+color: gray;
+}
+
+.testi-item{
+
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .abouthero
+{
+padding: 120px ;
+text-align: center;
+background-image: linear-gradient(rgba(199, 223, 132, 0.5),
+rgba(226, 222, 222, 0.5)), url(../src/Assect/image3.jpg);
+background-position: center;
+background-size: cover;
+height: auto;
+
+
+
+}
+
+.abouthero h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+   
+    color: white;
+    padding-top: none;
+    
+}
+
+.abouthero p{
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+   
+.marks img {
+  width: 30px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; 
+  padding: none;
+  align-items: center;
+}
+
+.face img {
+  width: 50px; /* Adjust the width of the images as needed */
+  height: 50px; /* Maintain aspect ratio */
+  /* margin-right: 5px;  */
+  padding: 5px;
+  /* align-content: last baseline; */
+  border-radius: 50%;
+}
+
+.face{
+  padding: 10px;
+}
