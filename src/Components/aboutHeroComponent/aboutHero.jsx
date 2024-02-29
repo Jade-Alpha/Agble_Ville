@@ -1,7 +1,10 @@
+import './aboutHero.css'
+
+
 export default function AboutHero() {
     return(
         <>
-        <p>hello</p>
+        <p className='p'>hello</p>
         
         </>
     )
