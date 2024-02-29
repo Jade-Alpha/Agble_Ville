@@ -1,10 +1,12 @@
 import React from "react";
+import NavBar from "../../Components/landing-component/navBarComponent/navBar";
 
 
 
 export default function Login_Page(){
     return(
      <>
+     <NavBar/>
      <div className="container-log">
     <form className="form-log">
      <h1 className="signup-text-log"> Login Page</h1><br></br>

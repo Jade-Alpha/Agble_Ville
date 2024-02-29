@@ -1,9 +1,10 @@
 
 import React from 'react';
-// import styles from "./index.module.css"
+import "./index.css"
 import SectionServiceItem from '../USP-section';
 import pic from "../../../Assect/Image5.png"
 import pic5 from "../../../Assect/next.png"
+import { Link } from "react-router-dom"
 
 function AboutSection (){
   return (
@@ -28,7 +29,8 @@ function AboutSection (){
                      Enim, autemossimus.
                   </p>
 
-                  <div className='botton'> <button class="btn">  <img className="img1" src={pic5}/></button> click for more</div>
+                  {/* < className='botton'> <button class="btn">  <img className="img1" src={pic5}/></button> click for more</div> */}
+                  <Link className='botton' to="/about"> <button class="btn">  <img className="img1" src={pic5}/></button> click for more</Link>
                
                
 
