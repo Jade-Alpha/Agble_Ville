@@ -9,7 +9,7 @@ export default function App() {
         <>
             <HomePage />
             <SignUp_Page />
-            <Login_Page />
+             <Login_Page /> 
         </>
     )
 }

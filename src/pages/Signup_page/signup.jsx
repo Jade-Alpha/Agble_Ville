@@ -12,15 +12,15 @@ export default function SignUp_Page(){
         <h1 className="signup-text">SignUp Page</h1><br></br>
     <div className="email">
     
-    <input type="text" placeholder="Email Address"/>
+    <input type="email" placeholder="Email Address"/>
    </div>
 
    <div className="password">
-    <input type="text" placeholder="Create Password"/>
+    <input type="password" placeholder="Create Password"/>
    </div>
    <div className="repassword"> 
    
-    <input type="text" placeholder="Confirm Password"/>
+    <input type="password" placeholder="Confirm Password"/>
    </div>
 
    <div className="signup-button">
