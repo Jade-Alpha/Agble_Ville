@@ -1,10 +1,12 @@
-import AboutHistory from "../../Components/aboutHistoryComponent/aboutHistory"
+import React from 'react'
+import NavBar from '../../Components/landing-page/navBarComponent/navBar'
+import AboutHero from '../../Components/aboutHeroComponent/aboutHero'
 
-
-export default function AboutPage () {
-    return(
-        <>
-        < AboutHistory/>
-        </>
-    )
+export const About = () => {
+  return (
+<>
+    <NavBar/>
+    <AboutHero/>
+    </>
+  )
 }
