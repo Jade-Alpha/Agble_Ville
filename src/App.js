@@ -1,4 +1,10 @@
 import React from "react";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { About } from "./pages/About-page/about";
+import { Products } from "./pages/Product-page/product";
+import Footer from "./Components/landing-page/footer-section";
+import NavBar from "./Components/landing-page/navBarComponent/navBar";
+
 import Hero from "../src/Components/landing-page/hero-section";
 import AboutSection from "../src/Components/landing-component/about-section";
 import NewArrival from "../src/Components/landing-page/new-arrival";
@@ -11,22 +17,36 @@ import ItemList from "./Components/SellerManagement/ItemList";
 import SignUpPage from "./Components/Sign_up/signup";
 import LoginPage from "./pages/login_page/login";
 
-function App() {
+
+const router = createBrowserRouter([
+  {path: "/", element: <HomePage/>},
+  {path: "/about", element: <About/>},
+ {path: "/product", element: <Products/>},
+ {path: "/contact", element: <Footer/>}
+]);
+
+
+
+
+
+export default function App() {
     return (
         <>
-            <Hero />
-            <AboutSection />
-            <NewArrival />
-            <BuyerCatalogue />
-            <Cart />
-            <CartPage />
-            <CheckoutForm />
-            <EditItemForm />
-            <ItemList />
-            <SignUpPage />
-            <LoginPage />
+        {/* <NavBar/> */}
+        {/* <HomePage/> */}
+        <RouterProvider router={router}/>
+       
+            {/* <Hero /> */}
+            {/* <AboutSection /> */}
+            {/* <NewArrival /> */}
+            {/* <BuyerCatalogue /> */}
+            {/* <Cart /> */}
+            {/* <CartPage /> */}
+            {/* <CheckoutForm /> */}
+            {/* <EditItemForm /> */}
+            {/* <ItemList /> */}
+            {/* <SignUpPage /> */}
+            {/* <LoginPage /> */}
         </>
     );
 }
-
-export default App;

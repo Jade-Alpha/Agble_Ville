@@ -143,15 +143,17 @@ border-style: solid;
 }
 
 .top-nave a{
-  display: flex;
+  /* display: flex; */
   text-align: center;
   text-decoration: none;
   color: #130808;
   font-weight: 700; 
 }
 
-.top-nave a:hover{
+a:hover{
   border-bottom:2px solid red;
+  /* background-color: blue; */
+  /* background-color: blue; */
 }
 
 .home-home{
@@ -183,7 +185,7 @@ border-style: solid;
   height: 100vh;
   position: absolute;
   animation: slide1 8s linear infinite;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 @keyframes slide1{
@@ -254,7 +256,7 @@ border-style: solid;
   height: 100vh;
   /* background: linear-gradient(rgba(100, 99, 99, 0.7), rgba(54, 51, 51, 0.7)); */
   position: absolute;
-  top: 0;
+  top: 90px;
 }
 
 .banner-text{
@@ -292,7 +294,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 40px;
 grid-row-gap: 0px;
-margin-bottom: 40px;
+/* margin-bottom: 40px; */
 padding: 30px 20px 20px 20px ;
 border: 1px solid rgb(221, 216, 216);
 }
@@ -303,7 +305,15 @@ border: 1px solid rgb(221, 216, 216);
 }
 
 .footer-footer p{
-  padding-bottom: 20px;
+   padding-bottom: 20px; 
+}
+
+.footer-down p{
+  background-color: rgb(185, 181, 181);
+  height: 60px;
+  text-align: start;
+  justify-content: center;
+  padding-top: 20px;
 }
  
 
