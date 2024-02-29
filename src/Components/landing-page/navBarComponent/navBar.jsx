@@ -1,9 +1,10 @@
+import logo from "../../../Assect/logo 4.png"
 export default function NavBar() {
     return(
  
  <>
  <div className="nav-side">
-     <h3>Agble Ville</h3>
+     <img src={logo} className="logo" />
      <nav className="top-nave">
          <a href="" className="home-home">HOME</a>
          <a href="">PRODUCTS</a>

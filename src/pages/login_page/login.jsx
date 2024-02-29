@@ -6,7 +6,9 @@ export default function Login_Page(){
     return(
      <>
      <div className="container-log">
+     
     <form className="form-log">
+    
      <h1 className="signup-text-log"> Login Page</h1><br></br>
     <div className="email">
     
