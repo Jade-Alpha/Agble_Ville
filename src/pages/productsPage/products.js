@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./index.module.css";
+import styles from "./products.module.css";
 import image from "../../../assets/cart.png"
 
 const allProducts = [
@@ -21,7 +21,7 @@ const allProducts = [
   { id: 16, name: "Snails", category: "others", price: 50 },
 ];
 
-function NewArrival() {
+function Products() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [cartItems, setCartItems] = useState([]);
 
@@ -66,4 +66,4 @@ function NewArrival() {
   );
 }
 
-export default NewArrival;
+export default Products;

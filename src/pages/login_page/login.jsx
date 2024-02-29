@@ -8,15 +8,17 @@ export default function Login_Page(){
      <>
      <NavBar/>
      <div className="container-log">
+     
     <form className="form-log">
+    
      <h1 className="signup-text-log"> Login Page</h1><br></br>
     <div className="email">
     
-     <input type="text" placeholder="Email Address"/>
+     <input type="email" placeholder="Email Address"/>
     </div>
 
     <div className="password">
-     <input type="text" placeholder="Type Password"/>
+     <input type="password" placeholder="Type Password"/>
     </div>
     
     <div className="signup-button">

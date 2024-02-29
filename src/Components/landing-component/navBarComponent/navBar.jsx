@@ -13,30 +13,27 @@ export default function NavBar() {
     // }
 
     // useEffect(searchInput,[])
-    return (
-
-        <>
-            <div className="nav-side">
-                <h3>Agble Ville</h3>
-                <nav className="top-nave">
-
-                    <Link className="home-home" to="/">Home</Link>
-                    <Link to="/product">Products</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
-                  
-                </nav>
-                {/* <input type="text"
+    return(
+ 
+ <>
+ <div className="nav-side">
+     <img src={logo} className="logo" />
+     <nav className="top-nave">
+         <a href="" className="home-home">HOME</a>
+         <a href=""><Link to="/product">PRODUCTS</Link></a>
+         <a href=""><Link to="/about">ABOUT</Link></a>
+         <a href=""><Link to="/contact">CONTACT</Link></a>
+         <a href="">SIGN UP</a>
+     </nav>
+     <input type="text"
     //    value={fruits}
     placeholder="search"
     //    onChange={(event) => setSearchInput(event.target.value)}
     //    onKeyDown={event => event.key === 'Enter' && SearchItem()}
     onKeyDown={(event) => setSearchInput(event.target.value)}
      />
-     <button onClick={ SearchItem()}>Search</button> */}
-     <Link className="sign" to="/sign-up">Sign Up</Link>
-            </div>
-            
+     <button onClick={ SearchItem()}>Search</button>
+ </div>
         </>
     )
 }
