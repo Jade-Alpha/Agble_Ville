@@ -9,7 +9,7 @@ import cayenne from "./cayenne_pepper.png";
 import cabbage from "./cabbage.png";
 import assorted from "./assorted_veggies.png";
 import tomato from "./tomato.png";
-
+import CartPage from "../CartBasket/Cartpage";
 
 const allProducts = [
   { id: 1, name: "Carrots", category: "vegetables", price: 20, image: carrots },
@@ -25,6 +25,7 @@ const allProducts = [
 function Products() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [cartItems, setCartItems] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
@@ -34,9 +35,22 @@ function Products() {
     setCartItems([...cartItems, product]);
   };
 
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <section className={styles.products}>
       <h1>OUR PRODUCTS</h1>
+
+      <div className={styles.search}>
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+      </div>
 
       <nav className={styles.navigation}>
         <ul>
@@ -55,6 +69,7 @@ function Products() {
       <div className={styles.productItems}>
         {allProducts
           .filter((product) => selectedCategory === "all" || product.category === selectedCategory)
+          .filter((product) => searchTerm === "" || product.name.toLowerCase().includes(searchTerm.toLowerCase()))
           .map((product) => (
             <div className={styles.productCard} key={product.id}>
               <div className={styles.productImage}>
@@ -73,6 +88,8 @@ function Products() {
             </div>
           ))}
       </div>
+      {/* Display the CartPage component passing cartItems */}
+      <CartPage items={cartItems} />
     </section>
   );
 }

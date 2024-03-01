@@ -176,4 +176,28 @@ h1 {
   .nav-button:hover {
     color: green; /* Change text color on hover */
   }
+
+.search {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  .search input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
   
