@@ -1,4 +1,4 @@
-
+// import logo from "../../../Assect/logonav.png"
 
 
 function Footer(){
@@ -7,7 +7,7 @@ function Footer(){
         <section>
             <div className="footer-banner"> 
                 <div className="footer-footer">
-                <h2>logo</h2>
+                {/* <img src={logo}/> */}
                     <p>Weekdays:   08:00am - 08:00pm</p>
                     <p>Weekdays:   08:00am - 08:00pm</p>
                     <span></span>

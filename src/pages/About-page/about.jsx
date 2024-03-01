@@ -1,12 +1,14 @@
 import React from 'react'
 import NavBar from '../../Components/landing-component/navBarComponent/navBar'
-import AboutHero from '../../Components/aboutHeroComponent/aboutHero'
+import AboutHistory from '../../Components/aboutHistoryComponent/aboutHistory'
+import Footer from '../../Components/landing-component/footer-section'
 
 export const About = () => {
   return (
 <>
     <NavBar/>
-    <AboutHero/>
+    < AboutHistory/>
+    <Footer/>
     </>
   )
 }

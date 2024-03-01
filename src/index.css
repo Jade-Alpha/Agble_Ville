@@ -21,11 +21,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.logo {height: 100px;
-  padding-top: 20px;
+.logo {height: 110px;
+  /* padding-top: 20px; */
   padding-left: 20px;
   padding-bottom: 20px;
-  width: 180px;
+  width: 220px;
 
 }
 
@@ -90,18 +90,20 @@ border-style: solid;
   }  
     
   .Container{
-     background-color: rgb(216,211,226); 
-   background: linear-gradient(90deg, rgba(216,211,226,1) 3%, rgba(156,175,160,0.5382528011204482) 100%);; 
+     /* background-color: rgb(216,211,226);  */
+   background: linear-gradient(90deg, rgb(186, 212, 137) 3%, rgba(184, 240, 196, 0.538) 100%);; 
     width: 85%;
     margin: auto;
     /* padding: 50px; */
-    height: 80vh;
+    height: 100vh;
+    padding-top: 70px;
    
   }
   .form{
     /* background-color: white; */
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
     margin: auto;
+    /* margin-top: 50px; */
     width: 50%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -112,9 +114,9 @@ border-style: solid;
   }
 
 
-  .signup-text-log{
+  .Signup-text{
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
  
   
@@ -142,7 +144,7 @@ border-style: solid;
       border-radius: 12px;
       border: 1px solid rgba(209, 213, 219, 0.3);
       height: 60vh;
-      padding-top: 30px;
+      padding-top: 10px;
     } 
 
     
@@ -152,6 +154,7 @@ border-style: solid;
   text-align: center;
   width: 100%;
   height: 80px;
+  background-color: #a1a39f;
   /* margin: auto; */
 }
 
@@ -293,7 +296,7 @@ link{
 .overlay{
   width: 100%;
   height: 100vh;
-  /* background: linear-gradient(rgba(100, 99, 99, 0.7), rgba(54, 51, 51, 0.7)); */
+   /* background: linear-gradient(rgba(243, 240, 240, 0.7), rgba(61, 59, 59, 0.7)); */
   position: absolute;
   top: 90px;
 }
@@ -517,5 +520,214 @@ height: auto;
   background: #9acea3;
   text-decoration: none;
 } 
+
+.history-item{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+ 
+}
+
+.history
+{
+padding: 120px ;
+text-align: center;
+background-image: url(../src/Assect/top-view-assortment-vegetables-paper-bag\ \(1\).jpg);
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+.history h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+  
+    color: white;
+    padding-top: none;
+    
+}
+
+.history h3 {color: black;
+
+}
+.history p{
+  padding: 10px;
+  font-weight: 300;
+  
+}
+
+.history-card{
+  background-color:linear-gradient(90deg, rgba(50, 44, 51, 0.698) 21%, rgba(56, 59, 66, 0.603) 100%);
+  color : white;
+  padding:20px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
+border-radius: 3px;
+height: 250px;
+
+
+}
+.history h2 {
+margin-bottom: 30px;
+}
+
+.team-card {
+  text-align: center;
+  border-radius: 10px;
+  /* padding: 30px; */
+  
+  
+
+}
+
+.teamsession h2{
+  text-align: center;
+  margin-bottom: 30px;
+ 
+  color: black;
+  
+}
+
+.teamsession{
+ 
+  padding: 50px;
+  margin-top: 60px;
+  
+  
+}
+
+.team-card img{
+  width: 300px;
+  height: 300px;
+   border-radius: 5px;
+  padding: 18px;
+  background-color: white; }
+
+  .team {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+  
+  
+
+  
+ .social-media img {
+  width: 60px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; 
+  padding: none;
+}
+
+
+
+
+.testimonial
+{
+padding: 120px ;
+text-align: center;
+background-image: url(../src/Assect/herosection3.jpg);
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+.testi h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-size: 50px;
+    color: white;
+    padding-top: none;
+    
+}
+
+.testi-card{
+  background-color:white;
+  color : black;
+  padding:40px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
+border-radius: 10px;
+height: 300px;
+margin: 30px;
+
+}
+.testi h2 {
+margin-bottom: 30px;
+color: gray;
+}
+
+.testi-item{
+
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .abouthero
+{
+padding: 120px ;
+text-align: center;
+background-image: linear-gradient(rgba(199, 223, 132, 0.5),
+rgba(226, 222, 222, 0.5)), url(../src/Assect/image3.jpg);
+background-position: center;
+background-size: cover;
+height: auto;
+
+
+
+}
+
+.abouthero h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+   
+    color: white;
+    padding-top: none;
+    
+}
+
+.abouthero p{
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+   
+.marks img {
+  width: 30px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; 
+  padding: none;
+  align-items: center;
+}
+
+.face img {
+  width: 50px; /* Adjust the width of the images as needed */
+  height: 50px; /* Maintain aspect ratio */
+  /* margin-right: 5px;  */
+  padding: 5px;
+  /* align-content: last baseline; */
+  border-radius: 50%;
+}
+
+.face{
+  padding: 10px;
+}
  
 

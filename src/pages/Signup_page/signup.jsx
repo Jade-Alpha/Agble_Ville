@@ -10,7 +10,7 @@ export default function SignUp_Page() {
                 <form className="form">
 
 
-                    <h1 className="signup-text">SignUp Page</h1><br></br>
+                    <h1 className="signup-text">Sign Up</h1><br></br>
 
                     <div className="first-name">
                         <input type="text" placeholder="First Name" />

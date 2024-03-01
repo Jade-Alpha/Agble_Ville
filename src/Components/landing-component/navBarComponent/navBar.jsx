@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react"
 // import { productItems } from "../../product"
 import { Link } from "react-router-dom"
-
+import logo from "../../../Assect/logonav.png"
 export default function NavBar() {
 
     // const[searchInput, setSearchInput] = useState("")
@@ -19,20 +19,20 @@ export default function NavBar() {
  <div className="nav-side">
      <img src={logo} className="logo" />
      <nav className="top-nave">
-         <a href="" className="home-home">HOME</a>
-         <a href=""><Link to="/product">PRODUCTS</Link></a>
-         <a href=""><Link to="/about">ABOUT</Link></a>
-         <a href=""><Link to="/contact">CONTACT</Link></a>
-         <a href="">SIGN UP</a>
+         <Link to="/">Home</Link>
+         <Link to="/product">Products</Link>
+         <Link to="/about">About</Link>
+         <Link to="/contact">Contact</Link>
+         <Link to="sign_up">Sign Up</Link>
      </nav>
-     <input type="text"
+      {/* <input type="text"
     //    value={fruits}
     placeholder="search"
     //    onChange={(event) => setSearchInput(event.target.value)}
     //    onKeyDown={event => event.key === 'Enter' && SearchItem()}
     onKeyDown={(event) => setSearchInput(event.target.value)}
      />
-     <button onClick={ SearchItem()}>Search</button>
+     <button onClick={ SearchItem()}>Search</button>  */}
  </div>
         </>
     )
